@@ -1,0 +1,47 @@
+html, body {
+    width: 100%;
+    padding: 0;
+    margin:0;
+    background: #000000;
+}
+
+header {
+    margin: 50px;
+}
+
+p {
+    color: #ffffff;
+}
+
+nav {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div {
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    justify-content: center;
+}
+
+nav div a {
+    display: flex;
+    width: 100%;
+    max-width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.notified {
+    display: flex;
+    justify-content: center;
+    color: #DF00A1;
+    box-sizing: border-box;
+    border: 1px solid #DF00A1;
+    border-radius: 5px;
+}
