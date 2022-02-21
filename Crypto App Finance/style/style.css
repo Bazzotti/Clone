@@ -1,15 +1,19 @@
 html, body {
-    width: 100%;
-    padding: 0;
-    margin:0;
-    background: #000000;
+    margin: 0;
+	padding: 0;
+	height: 100%;
+    background: #111111;
 }
 
 header {
     margin: 50px;
 }
 
-p {
+main {
+    margin: 100px;
+}
+
+h2, h3, h4, h5, h6,  p {
     color: #ffffff;
 }
 
@@ -18,19 +22,21 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1400px;
+    width: 100%;
 }
 
 nav div {
     display: flex;
     max-width: 500px;
     width: 100%;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 nav div a {
     display: flex;
     width: 100%;
-    max-width: 100px;
+    max-width: 150px;
     height: 30px;
     justify-content: center;
     align-items: center;
@@ -44,4 +50,98 @@ nav div a {
     box-sizing: border-box;
     border: 1px solid #DF00A1;
     border-radius: 5px;
+}
+
+.seta-rosa {
+    display: flex;
+    width: 100%;
+    max-width: 15px;
+    margin-left: 15px;
+}
+
+.container-information p {
+    color:#DF00A1;
+    margin-bottom: 35px;
+}
+
+#container-initial {
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.container-information {
+    display: flex;
+    flex-direction: column;
+    height: 796px;
+    justify-content: space-between;
+}
+
+#container-initial h2 {
+    font-size: 78px;
+    max-width: 380px;
+    text-shadow: #3EFFB9 2px 3px 2px;
+}
+
+.get-notified {
+    display: flex;
+    background-color: #DF00A1;
+    margin-top: 50px;
+    box-sizing: border-box;
+    border: 5px solid #DF00A1;
+    border-radius: 5px;
+    max-width: 125px;
+}
+
+.seta-preta {
+    display: flex;
+    width: 100%;
+    max-width: 15px;
+    margin-left: 15px;
+}
+
+.updates {
+    margin-top: 70px;
+    display: flex;
+    width: 100%;
+    max-width: 225px;
+}
+
+.updates div::before {
+    background: #ffffff;
+    content:"";
+    display: inline-block;
+    height: 2px;
+    width: 192px;
+    margin-bottom: 50px;
+}
+
+.updates div {
+    max-width: 192px;
+    width: 100%;
+    margin-right: 30px;
+}
+
+.updates div h4 {
+    margin-top: 15px;
+}
+
+.container-img {
+    background: radial-gradient(circle, rgba(223,0,161,1) 0%, rgba(17,17,17,1) 40%);
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+}
+
+.container-img {
+    position: relative;
+}
+
+.icon-app {
+    position: absolute;
+    left: 80px;
 }
