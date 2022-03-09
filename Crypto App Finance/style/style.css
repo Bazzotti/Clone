@@ -255,3 +255,88 @@ nav div a {
 #container-ceo .ceo-description .quote p{
     margin-top: 10px;
 }
+
+#container-aboutcompany {
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+
+#container-aboutcompany div {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+#container-aboutcompany .aboutcompany {
+    display: flex;
+    flex-direction: column;
+    max-width: 325px;
+    width: 100%;
+}
+
+#container-aboutcompany .aboutcompany::before {
+    background: #ffffff;
+    content:"";
+    display: inline-block;
+    height: 2px;
+    width: 325px;
+    margin-bottom: 50px;
+}
+
+#container-aboutcompany .aboutcompany .itens-about {
+    margin-top: 20px;
+}
+
+#container-aboutcompany .aboutcompany h4 {
+    font-size: 19px;
+}
+
+#container-cryptoinvestiment {
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+
+#container-cryptoinvestiment div {
+    background-color: #3EFFB9;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#container-cryptoinvestiment .investiment-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 500px;
+    width: 100%;
+}
+
+#container-cryptoinvestiment .investiment-description h3 {
+    font-size: 70px;
+    color: #000000;
+    font-weight: bold;
+}
+
+#container-cryptoinvestiment .investiment-description .more-description {
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+}
+
+#container-cryptoinvestiment .investiment-description .quote {
+    display: flex;
+    flex-direction: column;
+    border-left: 3px solid #555555;
+}
+
+#container-cryptoinvestiment .investiment-description .quote-space {
+    margin-left: 25px;
+    color: #000000;
+    font-weight: bold;
+}
+
+#container-cryptoinvestiment .investiment-description .quote p{
+    margin-top: 10px;
+}
